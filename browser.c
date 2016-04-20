@@ -39,7 +39,8 @@ int main(int argc, char** argv) {
       webkit_web_view_open(web_view, default_url);
   }
 
-  maximize();
+  decorate();
+  unmaximize();
   gtk_widget_show_all(window);
   gtk_main();
 
